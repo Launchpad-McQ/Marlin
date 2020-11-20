@@ -494,6 +494,8 @@ def get_starting_env(board_name_full, version):
     path = 'Marlin/pins.h'
   if version == 2:
     path = 'Marlin/src/pins/pins.h'
+  else:
+    path = 'Marlin/src/pins/pins.h'
   with open(path, 'r') as myfile:
     pins_h = myfile.read()
 
