@@ -52,7 +52,7 @@ static void event_handler(lv_obj_t *obj, lv_event_t event) {
   if (event != LV_EVENT_RELEASED) return;
   switch (obj->mks_obj_id) {
     case ID_H_ALL:
-      queue.inject_P(PSTR("G28"));
+      queue.inject_P(PSTR("G34"));
       break;
     case ID_H_X:
       queue.inject_P(PSTR("G28 X0"));
