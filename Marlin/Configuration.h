@@ -1475,7 +1475,7 @@
 #if defined(XY2_MODELS) || defined(D01_MODELS)
   #define INVERT_Y_DIR false
 #else
-  #define INVERT_Y_DIR true
+  #define INVERT_Y_DIR true 
 #endif
 
 #if defined(XY3_MODELS) || defined(XY2_MODELS)
